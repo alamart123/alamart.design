@@ -1,0 +1,155 @@
+/****************************BANNER SECTION****************************/
+/****************************BANNER SECTION****************************/
+#navbar{
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/*====================================================*/
+/*===============LIST MENU SECTION===============*/
+.list_menu{
+    padding: 21px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #111425,#3751e0);
+    color: #fff;
+    padding: 80px 48px;
+    margin: auto; 
+    /*===================================================================================================
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 20px;
+    width: 1280px;
+    margin: 80px auto;
+===================================================================================================    */
+
+}
+.list_menu .title2{
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+/*
+#list-menu ul{
+    display: flex;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 369px;
+    top: 10px;
+    z-index: 1;
+}
+
+#list-menu ul li{
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#list-menu ul li .active{
+    background: #4b03f4;
+    color: #fff;
+}
+*/
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .itemBox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.product .itemBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.product .itemBox img:hover {
+    transform: scale(1.1);
+}
+
+/*====================================================*/
+/*===============SOCIAL MEDIA SECTION===============*/
+
+#social-media{
+    background-image: linear-gradient(to right, #111425, #3751e0);
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+    padding-left: 3px;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+
+/*===============FOOTER 1 SECTION===============*/
+
+footer{
+    margin: 0;
+    padding: 40px;
+    color: #fff;
+    position: static;
+    width: 100%;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-box{
+    padding: 20px 30px;
+}
+.footer-box .fas{
+    margin-right: 8px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .right-box .content .text{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin: 0px -10px;
+}
+hr{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
